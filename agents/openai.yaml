@@ -1,0 +1,4 @@
+interface:
+  display_name: "ModelArts VLM 吞吐调优"
+  short_description: "先问清场景与目标，再执行跨项目 VLM 受控调优"
+  default_prompt: "Use $modelarts-vlm-throughput-tuning to first collect the current project's tuning requirements, then propose a controlled ModelArts Standard benchmark and tuning plan."

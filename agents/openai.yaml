@@ -1,4 +1,4 @@
 interface:
-  display_name: "ModelArts VLM 吞吐调优"
-  short_description: "先问清场景与目标，再执行跨项目 VLM 受控调优"
-  default_prompt: "Use $modelarts-vlm-throughput-tuning to first collect the current project's tuning requirements, then propose a controlled ModelArts Standard benchmark and tuning plan."
+  display_name: "模型推理测试"
+  short_description: "先冻结测试口径与基线，再执行可复现的模型功能和性能测试"
+  default_prompt: "使用 $model-inference-testing 先完成测试前问询和基线确认，再设计或执行当前模型的测试矩阵。"
